@@ -165,7 +165,7 @@ dist/
 # Flycheck
 flycheck_*.el
 
-# miner auth directory
+# server auth directory
 /server/
 
 # projectiles files
