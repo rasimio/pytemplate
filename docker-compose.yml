@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  server:
+    ports:
+      - "9670:8000"
+    build:
+      context: .
+      dockerfile: bin/server/Dockerfile
+    restart: unless-stopped
+    container_name: src
